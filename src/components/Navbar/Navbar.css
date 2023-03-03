@@ -1,0 +1,33 @@
+.nav {
+    margin-top: 1rem;
+    position: absolute;
+    z-index: 1;
+    left:0;
+    right:0;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.nav-link-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    font-weight: 500;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover, .nav-link:active {
+    /* text-decoration: underline; */
+    font-weight: 700;
+    text-shadow: 0 0 10px #26f7b2, 
+    0 0 20px #26f7b2, 
+    0 0 30px #26f7b2; 
+    transition: text-shadow 0.2s ease-in;
+}
