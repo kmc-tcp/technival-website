@@ -14,7 +14,7 @@ const Hero = () => {
                     <p className='date'>27 March 2023</p>
                 </div>
                 <div>
-                    <a href="/register" className="register-button"> Explore Events </a>
+                    <a href="#events" className="register-button"> Explore Events </a>
                 </div>
             </div>
         </section>
