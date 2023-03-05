@@ -7,7 +7,7 @@ body {
   font-family: 'Montserrat', sans-serif,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background: linear-gradient(to bottom,#122230 20%, #173349, #1d4c64, #3b9393);
+  background: linear-gradient(to bottom,#122230 5%, #173349 10%, #1d4c64 5%, #3b9393);
  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

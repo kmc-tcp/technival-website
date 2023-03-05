@@ -1,7 +1,24 @@
 footer {
     display: flex;
     color: #fff;
-    background-color: #000;
+    /* background-color: #000; */
     padding: 0 1rem;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-link:hover, .contact-link:active {
+    text-shadow: 0 0 10px #26f7b2, 
+    0 0 20px #26f7b2, 
+    0 0 30px #26f7b2; 
+    color: white;
+    text-align: center;
 }

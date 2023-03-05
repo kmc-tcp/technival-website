@@ -1,0 +1,21 @@
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsors-head {
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 0 0 10px #26f7b2, 
+    0 0 20px #26f7b2, 
+    0 0 30px #26f7b2; 
+    color: white;
+    text-align: center;
+}
+
+.coming-soon {
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+}

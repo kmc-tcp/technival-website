@@ -27,7 +27,6 @@
     position: relative;
     margin: 40px 0;
     margin-top: 0;
-    /* background: linear-gradient(to bottom,#122230, #173349, #1d4c64, #3b9393); */
 }
 
 .timeline-container::after {
