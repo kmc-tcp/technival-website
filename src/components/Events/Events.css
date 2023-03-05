@@ -1,8 +1,23 @@
+.guest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.guest-img img {
+    border-radius: 50%;
+    width: 30rem;
+}
+
 .event-heading {
 	text-align: center;
     color: #fff;
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 600;
+    text-shadow: 0 0 10px #26f7b2, 
+    0 0 20px #26f7b2, 
+    0 0 30px #26f7b2; 
 }
 
 

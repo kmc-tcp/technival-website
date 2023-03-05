@@ -8,10 +8,10 @@ const Navbar = () => {
                 <img src={logo} alt='logo' width={80}/>
             </div>
             <div className='nav-link-container'>
-                <a href="https://www.google.com" className='nav-link'>About Technival</a>
-                <a href="https://www.google.com" className='nav-link'>Events</a>
-                <a href="https://www.google.com" className='nav-link'>Sponsors</a>
-                <a href="https://www.google.com" className='nav-link'>Contact Us</a>
+                <a href="#about" className='nav-link'>About Technival</a>
+                <a href="#events" className='nav-link'>Events</a>
+                <a href="#sponsors" className='nav-link'>Sponsors</a>
+                <a href="#contact" className='nav-link'>Contact Us</a>
             </div>
         </nav>
     )

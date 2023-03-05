@@ -1,4 +1,5 @@
 import './App.css'
+import About from './components/About/About'
 import Events from './components/Events/Events'
 import Footer from './components/Footer/Footer'
 import Hero from './components/Hero/Hero'
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Hero/>
+      <About/>
       <Events/>
       <Sponsors/>
       <Footer/>
