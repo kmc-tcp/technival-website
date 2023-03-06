@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f4c88dc.css",
+    "main.js": "/static/js/main.20a94b86.js",
+    "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "static/media/bg_trim.mp4": "/static/media/bg_trim.ef87ed75c9b6b1ff58d1.mp4",
+    "static/media/logo.png": "/static/media/logo.93029c0b1f0a2d84a8a0.png",
+    "static/media/Mokoto Glitch Mark.ttf": "/static/media/Mokoto Glitch Mark.32dcb8ddf9731709d915.ttf",
+    "static/media/neuropol.otf": "/static/media/neuropol.20d65c2970bd3c91ca88.otf",
+    "static/media/rj-naved.webp": "/static/media/rj-naved.0a5233c7e9999a908a34.webp",
+    "static/media/instagram.svg": "/static/media/instagram.c83e628eea4e83e0d2b6c8e54910510c.svg",
+    "static/media/twitter.svg": "/static/media/twitter.fe06d572bd13680e66f4d31fc7cf1832.svg",
+    "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.ada11cda991129bc91b79d2c7cee1066.svg",
+    "static/media/youtube.svg": "/static/media/youtube.6806408aa1bf55b7f1aaba51978e649e.svg",
+    "static/media/facebook.svg": "/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
+    "main.3f4c88dc.css.map": "/static/css/main.3f4c88dc.css.map",
+    "main.20a94b86.js.map": "/static/js/main.20a94b86.js.map",
+    "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f4c88dc.css",
+    "static/js/main.20a94b86.js"
+  ]
+}
