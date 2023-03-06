@@ -2,7 +2,7 @@ import './About.css'
 const About = () => {
     return(
         <section className="about" id='about' name='about'>
-            <p className='about-head'>About Technival 7.O</p>
+            <p className='heading'>About Technival 7.O</p>
             <div>
                 <p className='about-desc'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sed cumque itaque ratione eligendi. Laborum molestiae atque quaerat officia amet unde provident, nam enim corporis eveniet, eaque dolorum nesciunt accusamus.

@@ -10,6 +10,10 @@
     color: #fff;
 }
 
+.nav-container {
+    position: relative;
+}
+
 .nav-link-container {
     display: flex;
     justify-content: space-between;
@@ -30,4 +34,48 @@
     0 0 20px #26f7b2, 
     0 0 30px #26f7b2; 
     transition: text-shadow 0.2s ease-in;
+}
+
+.nav-mobile {
+    display: none;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 769px) {
+
+    .nav-mobile {
+        display: block;
+        z-index: -1;
+    }
+
+    .nav-link-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        z-index: 2;
+        top: -20px;
+        display: none;
+        width: 300px;
+        height: 100vh;
+        background: linear-gradient(to bottom,#122230, #173349, #1d4c64, #3b9393);
+        padding-top: 1rem;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link-container.active {
+        right: 0;
+        display: flex;
+    }
+
+    .nav-link-container a {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .tcp-logo {
+        width: 3.5rem;
+    }
 }

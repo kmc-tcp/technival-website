@@ -22,3 +22,15 @@ footer {
     color: white;
     text-align: center;
 }
+
+@media screen and (max-width: 769px) {
+
+    footer {
+        font-size: 0.7rem;
+        flex-direction: column;
+    }
+
+    .footer-socials {
+        width: 1.5rem;
+    }
+}

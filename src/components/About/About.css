@@ -8,7 +8,8 @@
 
 .about-desc {
     text-align: center;
-    width: 80rem;
+    width: 80%;
+    margin: auto;
 }
 
 .about-head {

@@ -17,12 +17,12 @@ const Footer = () => {
                 </p>
             </div>
             <div>
-                <div className="guest-socials">
+                <div className="socials">
                     <p> Follous us:</p>
-                    <a href="https://www.instagram.com/kmc.tcp/" target={"_blank"} rel={"noreferrer"}><img src={instagram} alt="" /></a>
-                    <a href="https://www.facebook.com/cstcp/" target={"_blank"} rel={"noreferrer"}><img src={facebook} alt="" /></a>
-                    <a href="https://www.linkedin.com/in/the-computer-prodigies-889323234/" target={"_blank"} rel={"noreferrer"}><img src={linkedin} alt="" /></a>
-                    <a href="https://twitter.com/kmc__tcp" target={"_blank"} rel={"noreferrer"}><img src={twitter} alt="" /></a>
+                    <a href="https://www.instagram.com/kmc.tcp/" target={"_blank"} rel={"noreferrer"}><img src={instagram} className="footer-socials" alt="" /></a>
+                    <a href="https://www.facebook.com/cstcp/" target={"_blank"} rel={"noreferrer"}><img src={facebook} className="footer-socials" alt="" /></a>
+                    <a href="https://www.linkedin.com/in/the-computer-prodigies-889323234/" target={"_blank"} rel={"noreferrer"}><img src={linkedin} className="footer-socials" alt="" /></a>
+                    <a href="https://twitter.com/kmc__tcp" target={"_blank"} rel={"noreferrer"}><img src={twitter} className="footer-socials" alt="" /></a>
                 </div>
             </div>
         </footer>

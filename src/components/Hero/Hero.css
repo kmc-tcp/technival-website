@@ -19,8 +19,9 @@ video {
 
 .content {
     position: relative;
-    z-index: 1; /* position the content on top of the video */
+    z-index: 1; /*position the content on top of the video */
     padding: 2rem;
+    margin-top: 3rem;
     text-align: center;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -30,7 +31,7 @@ video {
 
 .main-heading {
     font-family: 'Neuropol', sans-serif;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: normal;
     color: white;
     margin: 0;
@@ -63,5 +64,24 @@ video {
   }
   
   
+  @media screen and (max-width: 769px) {
+    .main-heading {
+        font-size: 3rem;
+    }
+
+    .content {
+        z-index: 0;
+        margin: auto;
+        font-size: 1.1rem;
+    }
+
+    .date {
+        font-size: 2rem;
+    }
+  }
   
-  
+  @media screen and (max-width: 426px) {
+    .main-heading {
+        font-size: 2.5rem;
+    }
+  }

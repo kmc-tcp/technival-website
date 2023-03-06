@@ -10,19 +10,19 @@ import youtube from '../../assets/images/youtube.svg'
 const Events = () => {
     return (
         <section name='events' id="events">
-            <p className="event-heading">Events at Technival 7.O</p>
+            <p className="heading">Events at Technival 7.O</p>
             <div className="timeline-container">
                 {eventDetail.map((data, idx) => (
                     <EventItem data={data} key={idx} />
                 ))}
             </div>
             <div className="guest">
-                <p className="event-heading">Guest of the day</p>
+                <p className="heading">Guest of the day</p>
                 <div className="guest-img">
                     <img src={guestImg} alt="" />
                 </div>
                 <div className="guest-name">
-                    <p className="event-heading">RJ Naved</p>
+                    <p className="heading">RJ Naved</p>
                 </div>
                 <div className="guest-socials">
                     <a href="https://www.instagram.com/rjnaved/" target={"_blank"} rel={"noreferrer"}><img src={instagram} alt="" /></a>

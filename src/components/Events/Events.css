@@ -7,19 +7,8 @@
 
 .guest-img img {
     border-radius: 50%;
-    width: 30rem;
+    width: 20rem;
 }
-
-.event-heading {
-	text-align: center;
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 600;
-    text-shadow: 0 0 10px #26f7b2, 
-    0 0 20px #26f7b2, 
-    0 0 30px #26f7b2; 
-}
-
 
 .timeline-container {
     display: flex;
@@ -27,6 +16,7 @@
     position: relative;
     margin: 40px 0;
     margin-top: 0;
+    padding:1rem;
 }
 
 .timeline-container::after {
@@ -182,3 +172,8 @@
     }
 }
 
+@media screen and (max-width: 426px) {
+    .guest-img img {
+        width: 15rem;
+    }
+}
