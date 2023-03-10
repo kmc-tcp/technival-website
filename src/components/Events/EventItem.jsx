@@ -6,7 +6,9 @@ const EventItem = ({ data }) => (
             </h3>
             <time>{data.time}</time>
             <p>{data.text}</p>
-            {data.link && (
+            {data.hackathon? 
+                <div className="apply-button" data-hackathon-slug="dev-hacks" data-button-theme="light" style={{height: '44px', width: '312px'}}></div>
+            : (
                 <a
                     href={data.link.url}
                     target="_blank"

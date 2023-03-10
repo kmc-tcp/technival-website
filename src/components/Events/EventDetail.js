@@ -1,8 +1,9 @@
 export const eventDetail = [
     {
-        title: 'Online Hackathon',
-        text: 'A 24 Hour Hackathon',
-        time: '10:00 am',
+        title: 'Dev Hacks',
+        text: 'A 24 Hour Online Hackathon',
+        time: '10:30 am',
+        hackathon: true,    
         link: {
             url: 'https://github.com/sachdevavaibhav',
             text: 'Register Now'
@@ -11,7 +12,7 @@ export const eventDetail = [
     {
         title: 'Code Uncode',
         text: 'Competitive Programming',
-        time: '10:00 am',
+        time: '10:30 am',
         link: {
             url: 'https://github.com/sachdevavaibhav',
             text: 'Register Now'
@@ -20,7 +21,7 @@ export const eventDetail = [
     {
         title: 'Graphical Sketching',
         text: 'Sketch your ideas',
-        time: '10:00 am',
+        time: '10:30 am',
         link: {
             url: 'https://github.com/sachdevavaibhav',
             text: 'Register Now'

@@ -1,9 +1,16 @@
 .heading {
   text-align: center;
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
   text-shadow: 0 0 10px #26f7b2, 
   0 0 20px #26f7b2, 
   0 0 30px #26f7b2; 
+}
+
+@media screen and (max-width: 769px) {
+  .devfolio-button {
+      width: 1rem;
+      overflow: hidden;
+  }
 }

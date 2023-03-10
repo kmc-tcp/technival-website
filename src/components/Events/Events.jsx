@@ -6,8 +6,19 @@ import guestImg from '../../assets/images/rj-naved.webp'
 import instagram from '../../assets/images/instagram.svg'
 import facebook from '../../assets/images/facebook.svg'
 import youtube from '../../assets/images/youtube.svg'
+import React from "react";
 
 const Events = () => {
+    React.useEffect(() => {
+        const script = document.createElement('script');
+        script.src = 'https://apply.devfolio.co/v2/sdk.js';
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);
+        return () => {
+          document.body.removeChild(script);
+        }
+    }, []);
     return (
         <section name='events' id="events">
             <p className="heading">Events at Technival 7.O</p>
