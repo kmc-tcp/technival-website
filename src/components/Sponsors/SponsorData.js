@@ -10,12 +10,12 @@ export const sponsorData = [
     },
     {
         title: 'Powered By',
-        imgSrc: [devfolioLogo, polygonLogo]
+        details: [{imgSrc: devfolioLogo, link: 'https://devfolio.co'}, {imgSrc: polygonLogo, link: 'https://polygon.technology/'}]
     },
  
     {
         title: 'Co-Powered By',
-        imgSrc: [solanaLogo, filecoinLogo, replitLogo]
+        details: [{imgSrc: solanaLogo, link: 'https://solana.com '}, {imgSrc: filecoinLogo, link: 'https://filecoin.io '}, {imgSrc: replitLogo, link: 'https://replit.com '}]
     },
     
 ] 

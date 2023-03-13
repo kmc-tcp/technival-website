@@ -5,14 +5,12 @@ const About = () => {
             <p className='heading'>About Technival 7.O</p>
             <div>
                 <p className='about-desc'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sed cumque itaque ratione eligendi. Laborum molestiae atque quaerat officia amet unde provident, nam enim corporis eveniet, eaque dolorum nesciunt accusamus.
-                    Aliquid consequuntur eveniet inventore beatae eligendi explicabo fugiat et voluptate, repudiandae blanditiis soluta repellendus tenetur, doloribus rerum impedit molestiae iste libero odit. Eos quas nemo voluptates ratione ex aperiam vero!
-                    Dolorum deleniti, beatae adipisci molestiae nesciunt quam, debitis molestias sunt cupiditate vel aspernatur nobis animi. Odit repudiandae sequi eos autem, placeat perspiciatis ab veritatis? Ex nostrum sint ipsa amet velit.
-                    Earum fugit dicta iusto maxime sapiente labore in tenetur corrupti ex cupiditate, perspiciatis maiores eaque totam ipsum odio sequi accusamus esse molestias, porro soluta fuga beatae. Corporis odit ullam quis.
-                    Debitis vero deleniti tempore beatae unde quasi ea, neque labore aperiam laudantium, hic veritatis incidunt dolor. Provident nihil ipsum aliquam atque tempore odit qui cumque veniam esse possimus, non at.
-                    Aliquid, dolore voluptas. A repellendus adipisci maxime odit, nisi assumenda, accusantium laudantium nihil beatae quidem maiores sunt dignissimos quod eaque eos placeat pariatur exercitationem iste harum voluptas voluptatum deserunt qui.
-                    Commodi enim, quia nemo harum fuga culpa at vitae perferendis reiciendis quod ea neque aperiam consectetur tempora maxime incidunt obcaecati aspernatur cumque! Necessitatibus, rem magni! Quia animi commodi culpa omnis?
-                    Quas tempora ex quibusdam odio, aspernatur voluptates quia vero exercitationem nesciunt, repellendus aliquam ducimus corrupti esse impedit voluptatem. Earum, animi recusandae itaque veritatis incidunt possimus et officia? Sit, fuga illo.
+                TECHNIVAL is the flagship event of The Computer Prodigies, Department of Computer Science, Kirori Mal College. Get ready for an electrifying experience that will take you on a journey of endless possibilities and limitless imagination.
+                This year's TECHNIVAL promises to be bigger, better, and more exciting than ever before. We have a wide range of tech and non-tech events lined up for you, including Hackathon, Code Uncode, Treasure Hunt, Graphical Sketching, FIFA, and much more.
+                Whether you're a tech enthusiast, an aspiring engineer, or just someone who loves to have fun, we've got something for everyone.
+                Join us for TECHNIVAL 7.0 and experience the thrill of innovation, the excitement of competition, and the joy of camaraderie. This is not just an event - it's a journey that will leave a lasting impression on you and everyone around you. 
+                So don't miss out on this incredible opportunity to be a part of something truly extraordinary.
+
                 </p>
             </div>
         </section>
