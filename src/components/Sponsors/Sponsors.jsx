@@ -15,7 +15,7 @@ const Sponsors = () => {
                         <div className='sponsor-title'>
                             <p> {data.title} </p>
                         </div>
-                        <div className='sponsors-card-container'>
+                        <div className='sponsors-card-container' >
                             {data.details?data.details.map((details,detailIdx) => <SponsorsCard link={details.link} imgSrc={details.imgSrc} key={detailIdx}/>)
                             : 
                             <p className='sponsor-title coming-soon'>Coming Soon...</p>}
