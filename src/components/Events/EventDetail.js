@@ -32,7 +32,7 @@ export const eventDetail = [
         text: 'PS5 Gaming Tournament',
         time: '11:30 am',
         link: {
-            url: 'https://forms.gle/hoavVGh1wutZzynp8',
+            url: 'https://forms.gle/yaYcLfTFkTzfZZ9C7',
             text: 'Register Now'
         }
     },
