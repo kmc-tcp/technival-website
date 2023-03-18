@@ -8,7 +8,16 @@ import interviewCake from '../../assets/images/interview_cake.png'
 import interviewBuddy from '../../assets/images/InterviewBuddy.png'
 import axure from '../../assets/images/Axure.png'
 import echo3D from '../../assets/images/echo3D.png'
-import srijcon from '../../assets/images/srijcon.jfif'
+import srijcon from '../../assets/images/Srijcon-logo.png'
+import evePaper from '../../assets/images/evepaper.jpg'
+import ensemble from '../../assets/images/ensemble.jpg'
+import dufestupdates from '../../assets/images/dufestupdates.jpg'
+import duclub from '../../assets/images/duclub.jpg'
+import duAdda from '../../assets/images/duAdda.jpg'
+import ducampusfest from '../../assets/images/ducampusfest.jpg'
+import duFestUpdates from '../../assets/images/du_fest_updates.jpg'
+import theCampusMedia from '../../assets/images/thecampusmedia.jpg'
+import theEducationTree from '../../assets/images/theeducationtree.jpg'
 
 export const sponsorData = [
     {
@@ -33,6 +42,21 @@ export const sponsorData = [
         details: [{imgSrc: interviewCake, link: 'https://www.interviewcake.com'},
         {imgSrc: interviewBuddy, link: 'https://www.interviewbuddy.in'}, {imgSrc: axure, link: 'https://www.axure.com'},
         {imgSrc: echo3D, link: 'https://echo3d.com'}]
+    },
+    {
+        title: 'Media Partners',
+        details: [{imgSrc: evePaper, link: 'https://evepaper.com/'},
+        {imgSrc: ensemble, link: 'https://www.instagram.com/ensemble._official/'}, {imgSrc: dufestupdates, link: 'https://www.instagram.com/dufestupdates/'},
+        {imgSrc: duclub, link: 'https://www.instagram.com/du__club/'},
+        {imgSrc: duAdda, link: 'https://www.instagram.com/du_adda/'},
+        {imgSrc: ducampusfest, link: 'https://www.instagram.com/du_dtu_nsut_igdtuw_festas_2023/'},
+        {imgSrc: duFestUpdates, link: 'https://www.instagram.com/dufestupdatesofficial/'},
+        {imgSrc: theCampusMedia, link: 'https://www.instagram.com/thecampusmedia/'},
+    ]
+    },
+    {
+        title: 'Youth Community Partner',
+        details: [{imgSrc: theEducationTree, link: 'https://www.instagram.com/tetcommunity/'},]
     },
     
 ] 
