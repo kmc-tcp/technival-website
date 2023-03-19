@@ -18,6 +18,7 @@ import ducampusfest from '../../assets/images/ducampusfest.jpg'
 import duFestUpdates from '../../assets/images/du_fest_updates.jpg'
 import theCampusMedia from '../../assets/images/thecampusmedia.jpg'
 import theEducationTree from '../../assets/images/theeducationtree.jpg'
+import arcade from '../../assets/images/arcade.jpeg'
 
 export const sponsorData = [
     {
@@ -42,6 +43,10 @@ export const sponsorData = [
         details: [{imgSrc: interviewCake, link: 'https://www.interviewcake.com'},
         {imgSrc: interviewBuddy, link: 'https://www.interviewbuddy.in'}, {imgSrc: axure, link: 'https://www.axure.com'},
         {imgSrc: echo3D, link: 'https://echo3d.com'}]
+    },
+    {
+        title: 'Gaming Partner',
+        details: [{imgSrc: arcade, link: 'https://maps.app.goo.gl/5R29w2r1ZFiafdL57'}]
     },
     {
         title: 'Media Partners',
